@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alpha的点点滴滴</title>
+  <subtitle>一个很随便的程序猿</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-24T01:38:46.694Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>花都天气转凉</title>
+    <link href="http://yoursite.com/2016/11/24/%E8%8A%B1%E9%83%BD%E5%A4%A9%E6%B0%94%E8%BD%AC%E5%87%89/"/>
+    <id>http://yoursite.com/2016/11/24/花都天气转凉/</id>
+    <published>2016-11-24T01:23:16.000Z</published>
+    <updated>2016-11-24T01:38:46.694Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天还好好的，今天冷死爹爹了，盖着一张夏天的小被单，被强行冻醒，果然花都的冬天是地狱模式么。<br><br><img src="http://g.hiphotos.baidu.com/image/pic/item/cefc1e178a82b9015c5f12167a8da9773912ef21.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前几天还好好的，今天冷死爹爹了，盖着一张夏天的小被单，被强行冻醒，果然花都的冬天是地狱模式么。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://g.hiphotos.baidu.com/image/pic/item/cefc1e178a82b9015c5f12167a8da
+    
+    </summary>
+    
+    
+      <category term="杂事" scheme="http://yoursite.com/tags/%E6%9D%82%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装该博客遇到的坑</title>
+    <link href="http://yoursite.com/2016/11/23/%E5%AE%89%E8%A3%85%E8%AF%A5%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://yoursite.com/2016/11/23/安装该博客遇到的坑/</id>
+    <published>2016-11-23T10:29:49.000Z</published>
+    <updated>2016-11-23T11:33:58.769Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一次使用hexo-nodejs和github上传博客"><a href="#第一次使用hexo-nodejs和github上传博客" class="headerlink" title="第一次使用hexo,nodejs和github上传博客"></a>第一次使用hexo,nodejs和github上传博客</h2><p>在这个过程中，安装很顺利，但是卡在上传本地博客到github这一步。</p>
+<p>2个问题：</p>
+<ul><br>    <li>上传不了数据到github：</li><br>    <br><br>      错误点：原本是repo: <a href="https://github.com/gudaolanshan/helloworld.git" target="_blank" rel="external">https://github.com/gudaolanshan/helloworld.git</a><br><br>    现在已经没办法使用这种写法了。<br><br>      <br><br>    解决办法：_config.yml文件中修改为：<br><br>        deploy:<br><br>              type: git<br><br>              repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br><br>              branch: master<br><br>      <br><br><br>    <li>github网页无法打开</li><br>    <br><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    <br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一次使用hexo-nodejs和github上传博客&quot;&gt;&lt;a href=&quot;#第一次使用hexo-nodejs和github上传博客&quot; class=&quot;headerlink&quot; title=&quot;第一次使用hexo,nodejs和github上传博客&quot;&gt;&lt;/a&gt;第一次使用
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="问题总结" scheme="http://yoursite.com/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+</feed>
