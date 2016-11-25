@@ -52,9 +52,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Søk"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -105,12 +105,14 @@ theme: landscape</code>
 <code>npm install hexo-generator-baidu-sitemap --save</code></pre>
 
 <p>_config.yml文件添加代码：<br></p>
-<pre><code>baidusitemap:
-    path: baidusitemap.xml</code></pre>
+<p><pre><code>baidusitemap:<br>    path: baidusitemap.xml</code></pre></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/25/reed订阅出现的问题/">http://yoursite.com/2016/11/25/reed订阅出现的问题/</a></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/25/reed订阅出现的问题/" data-id="civxdn9xl000060amwfscpz5q" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/11/25/reed订阅出现的问题/" data-id="civxjtqsb00006kamk5otrbuo" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/问题总结/">问题总结</a></li></ul>
@@ -145,11 +147,13 @@ theme: landscape</code>
     <div class="article-entry" itemprop="articleBody">
       
         <p>前几天还好好的，今天冷死爹爹了，盖着一张夏天的小被单，被强行冻醒，果然花都的冬天是地狱模式么。<br><br><img src="http://g.hiphotos.baidu.com/image/pic/item/cefc1e178a82b9015c5f12167a8da9773912ef21.jpg" alt=""></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/24/花都天气转凉/">http://yoursite.com/2016/11/24/花都天气转凉/</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/24/花都天气转凉/" data-id="civxdn9y4000a60am81jk1cu4" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/11/24/花都天气转凉/" data-id="civxjtqsf00016kam3yo28zrn" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂事/">杂事</a></li></ul>
@@ -189,11 +193,27 @@ theme: landscape</code>
       
         <h2 id="第一次使用hexo-nodejs和github上传博客"><a href="#第一次使用hexo-nodejs和github上传博客" class="headerlink" title="第一次使用hexo,nodejs和github上传博客"></a>第一次使用hexo,nodejs和github上传博客</h2><p>在这个过程中，安装很顺利，但是卡在上传本地博客到github这一步。</p>
 <p>2个问题：</p>
-<ul><br>    <li>上传不了数据到github：</li><br>      错误点：原本是<br><br><pre><code>repo: <a href="https://github.com/gudaolanshan/gudaolanshan.github.io.git" target="_blank" rel="external">https://github.com/gudaolanshan/gudaolanshan.github.io.git</a><br></code></pre><br>    现在已经没办法使用这种写法了。<br><br>    解决办法：_config.yml文件中修改为：<br><br><pre><code>deploy:<br>    type: git<br>    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br>    branch: master<br></code></pre><br><br>    <li>github网页无法打开</li><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>
+<p><ul><br>    <li>上传不了数据到github：</li><br>      错误点：原本是<br></ul></p>
+<pre><code>repo: https://github.com/gudaolanshan/gudaolanshan.github.io.git<br></code></pre>
+    现在已经没办法使用这种写法了。<br>
+    解决办法：_config.yml文件中修改为：<br>
+<pre><code>deploy:
+    type: git
+    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git
+    branch: master
+</code></pre>
+
+<pre><code>&lt;li&gt;github网页无法打开&lt;/li&gt;
+错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。&lt;br&gt;
+解决办法：把git仓库重命名为gudaolanshan.github.io
+</code></pre><p></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/23/安装该博客遇到的坑/">http://yoursite.com/2016/11/23/安装该博客遇到的坑/</a></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/23/安装该博客遇到的坑/" data-id="civxdn9xo000160aml9jbkc77" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/11/23/安装该博客遇到的坑/" data-id="civxjtqsk00046kamwgnmlij2" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/问题总结/">问题总结</a></li></ul>
@@ -212,7 +232,7 @@ theme: landscape</code>
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Catégories</h3>
+    <h3 class="widget-title">Kategorier</h3>
     <div class="widget">
       <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a></li></ul>
     </div>
@@ -222,7 +242,7 @@ theme: landscape</code>
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Mot-clés</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂事/">杂事</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/问题总结/">问题总结</a></li></ul>
     </div>
@@ -232,7 +252,7 @@ theme: landscape</code>
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
       <a href="/tags/杂事/" style="font-size: 10px;">杂事</a> <a href="/tags/问题总结/" style="font-size: 20px;">问题总结</a>
     </div>
@@ -241,7 +261,7 @@ theme: landscape</code>
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Arkiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
     </div>
@@ -251,7 +271,7 @@ theme: landscape</code>
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Siste innlegg</h3>
     <div class="widget">
       <ul>
         
@@ -280,7 +300,7 @@ theme: landscape</code>
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 Alpha<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

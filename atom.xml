@@ -36,8 +36,10 @@ theme: landscape</code>
 <code>npm install hexo-generator-baidu-sitemap --save</code></pre>
 
 <p>_config.yml文件添加代码：<br></p>
-<pre><code>baidusitemap:
-    path: baidusitemap.xml</code></pre>]]></content>
+<p><pre><code>baidusitemap:<br>    path: baidusitemap.xml</code></pre></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/25/reed订阅出现的问题/">http://yoursite.com/2016/11/25/reed订阅出现的问题/</a></p>
+]]></content>
     
     <summary type="html">
     
@@ -61,6 +63,8 @@ theme: landscape</code>
     <updated>2016-11-24T01:38:46.694Z</updated>
     
     <content type="html"><![CDATA[<p>前几天还好好的，今天冷死爹爹了，盖着一张夏天的小被单，被强行冻醒，果然花都的冬天是地狱模式么。<br><br><img src="http://g.hiphotos.baidu.com/image/pic/item/cefc1e178a82b9015c5f12167a8da9773912ef21.jpg" alt=""></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/24/花都天气转凉/">http://yoursite.com/2016/11/24/花都天气转凉/</a></p>
 ]]></content>
     
     <summary type="html">
@@ -83,7 +87,23 @@ theme: landscape</code>
     
     <content type="html"><![CDATA[<h2 id="第一次使用hexo-nodejs和github上传博客"><a href="#第一次使用hexo-nodejs和github上传博客" class="headerlink" title="第一次使用hexo,nodejs和github上传博客"></a>第一次使用hexo,nodejs和github上传博客</h2><p>在这个过程中，安装很顺利，但是卡在上传本地博客到github这一步。</p>
 <p>2个问题：</p>
-<ul><br>    <li>上传不了数据到github：</li><br>      错误点：原本是<br><br><pre><code>repo: <a href="https://github.com/gudaolanshan/gudaolanshan.github.io.git" target="_blank" rel="external">https://github.com/gudaolanshan/gudaolanshan.github.io.git</a><br></code></pre><br>    现在已经没办法使用这种写法了。<br><br>    解决办法：_config.yml文件中修改为：<br><br><pre><code>deploy:<br>    type: git<br>    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br>    branch: master<br></code></pre><br><br>    <li>github网页无法打开</li><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
+<p><ul><br>    <li>上传不了数据到github：</li><br>      错误点：原本是<br></ul></p>
+<pre><code>repo: https://github.com/gudaolanshan/gudaolanshan.github.io.git<br></code></pre>
+    现在已经没办法使用这种写法了。<br>
+    解决办法：_config.yml文件中修改为：<br>
+<pre><code>deploy:
+    type: git
+    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git
+    branch: master
+</code></pre>
+
+<pre><code>&lt;li&gt;github网页无法打开&lt;/li&gt;
+错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。&lt;br&gt;
+解决办法：把git仓库重命名为gudaolanshan.github.io
+</code></pre><p></p>
+<hr>
+<p>本文链接：<a href="http://yoursite.com/2016/11/23/安装该博客遇到的坑/">http://yoursite.com/2016/11/23/安装该博客遇到的坑/</a></p>
+]]></content>
     
     <summary type="html">
     
