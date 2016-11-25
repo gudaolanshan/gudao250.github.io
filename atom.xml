@@ -5,15 +5,42 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-24T01:38:46.694Z</updated>
+  <updated>2016-11-25T02:54:50.155Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Alpha</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>reed订阅出现的问题</title>
+    <link href="http://yoursite.com/2016/11/25/reed%E8%AE%A2%E9%98%85%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/11/25/reed订阅出现的问题/</id>
+    <published>2016-11-25T01:52:49.000Z</published>
+    <updated>2016-11-25T02:54:50.155Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="开始在微博中加入res"><a href="#开始在微博中加入res" class="headerlink" title="开始在微博中加入res"></a>开始在微博中加入res</h2><p>利用npm依赖下载并安装rss插件：<br><br><code>npm install hexo-genetator-feed –save</code><br></p>
+<p><code>Plugins:</code></p>
+<ul>
+<li>hexo-generator-feed<br>theme: landscape</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;开始在微博中加入res&quot;&gt;&lt;a href=&quot;#开始在微博中加入res&quot; class=&quot;headerlink&quot; title=&quot;开始在微博中加入res&quot;&gt;&lt;/a&gt;开始在微博中加入res&lt;/h2&gt;&lt;p&gt;利用npm依赖下载并安装rss插件：&lt;br&gt;&lt;br&gt;&lt;code&gt;np
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="问题总结" scheme="http://yoursite.com/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>花都天气转凉</title>
@@ -41,11 +68,11 @@
     <link href="http://yoursite.com/2016/11/23/%E5%AE%89%E8%A3%85%E8%AF%A5%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://yoursite.com/2016/11/23/安装该博客遇到的坑/</id>
     <published>2016-11-23T10:29:49.000Z</published>
-    <updated>2016-11-23T11:33:58.769Z</updated>
+    <updated>2016-11-25T02:36:20.679Z</updated>
     
     <content type="html"><![CDATA[<h2 id="第一次使用hexo-nodejs和github上传博客"><a href="#第一次使用hexo-nodejs和github上传博客" class="headerlink" title="第一次使用hexo,nodejs和github上传博客"></a>第一次使用hexo,nodejs和github上传博客</h2><p>在这个过程中，安装很顺利，但是卡在上传本地博客到github这一步。</p>
 <p>2个问题：</p>
-<ul><br>    <li>上传不了数据到github：</li><br>    <br><br>      错误点：原本是repo: <a href="https://github.com/gudaolanshan/helloworld.git" target="_blank" rel="external">https://github.com/gudaolanshan/helloworld.git</a><br><br>    现在已经没办法使用这种写法了。<br><br>      <br><br>    解决办法：_config.yml文件中修改为：<br><br>        deploy:<br><br>              type: git<br><br>              repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br><br>              branch: master<br><br>      <br><br><br>    <li>github网页无法打开</li><br>    <br><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    <br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
+<ul><br>    <li>上传不了数据到github：</li><br>    <br><br>      错误点：原本是<br><br>    <code>repo: <a href="https://github.com/gudaolanshan/helloworld.git" target="_blank" rel="external">https://github.com/gudaolanshan/helloworld.git</a><br></code><br>    现在已经没办法使用这种写法了。<br><br>      <br><br>    解决办法：_config.yml文件中修改为：<br><br>        <code>deploy:<br><br>              type: git<br><br>              repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br><br>              branch: master<br><br>      <br></code><br><br>    <li>github网页无法打开</li><br>    <br><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    <br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
     
     <summary type="html">
     
