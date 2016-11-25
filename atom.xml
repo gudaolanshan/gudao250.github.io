@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-25T03:08:59.202Z</updated>
+  <updated>2016-11-25T03:10:03.167Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://yoursite.com/2016/11/25/reed%E8%AE%A2%E9%98%85%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2016/11/25/reed订阅出现的问题/</id>
     <published>2016-11-25T01:52:49.000Z</published>
-    <updated>2016-11-25T03:08:59.202Z</updated>
+    <updated>2016-11-25T03:10:03.167Z</updated>
     
     <content type="html"><![CDATA[<h2 id="开始在微博中加入res"><a href="#开始在微博中加入res" class="headerlink" title="开始在微博中加入res"></a>开始在微博中加入res</h2><p>利用npm依赖下载并安装rss插件：<br><br><code>npm install hexo-genetator-feed –save</code><br></p>
-<p>_config.yml文件添加代码：<br><br><code>Plugins: - hexo-generator-feed<br><br>theme: landscape</code></p>
+<p>_config.yml文件添加代码：<br><br><code>Plugins:<br><br>- hexo-generator-feed<br><br>theme: landscape</code></p>
 ]]></content>
     
     <summary type="html">
