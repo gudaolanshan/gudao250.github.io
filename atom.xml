@@ -79,11 +79,11 @@ theme: landscape</code>
     <link href="http://yoursite.com/2016/11/23/%E5%AE%89%E8%A3%85%E8%AF%A5%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://yoursite.com/2016/11/23/安装该博客遇到的坑/</id>
     <published>2016-11-23T10:29:49.000Z</published>
-    <updated>2016-11-25T03:43:04.550Z</updated>
+    <updated>2016-11-25T03:44:55.582Z</updated>
     
     <content type="html"><![CDATA[<h2 id="第一次使用hexo-nodejs和github上传博客"><a href="#第一次使用hexo-nodejs和github上传博客" class="headerlink" title="第一次使用hexo,nodejs和github上传博客"></a>第一次使用hexo,nodejs和github上传博客</h2><p>在这个过程中，安装很顺利，但是卡在上传本地博客到github这一步。</p>
 <p>2个问题：</p>
-<ul><br>    <li>上传不了数据到github：</li><br>    <br><br>      错误点：原本是<br><br><pre><code>repo: <a href="https://github.com/gudaolanshan/gudaolanshan.github.io.git" target="_blank" rel="external">https://github.com/gudaolanshan/gudaolanshan.github.io.git</a><br></code></pre><br>    现在已经没办法使用这种写法了。<br><br>      <br><br>    解决办法：_config.yml文件中修改为：<br><br><pre><code>deploy:<br>    type: git<br>    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br>    branch: master<br></code></pre><br><br>    <li>github网页无法打开</li><br>    <br><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    <br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
+<ul><br>    <li>上传不了数据到github：</li><br>      错误点：原本是<br><br><pre><code>repo: <a href="https://github.com/gudaolanshan/gudaolanshan.github.io.git" target="_blank" rel="external">https://github.com/gudaolanshan/gudaolanshan.github.io.git</a><br></code></pre><br>    现在已经没办法使用这种写法了。<br><br>    解决办法：_config.yml文件中修改为：<br><br><pre><code>deploy:<br>    type: git<br>    repo: git@github.com:gudaolanshan/gudaolanshan.github.io.git<br>    branch: master<br></code></pre><br><br>    <li>github网页无法打开</li><br>    错误点：git仓库名为gudao250.github.io，但是git要求是前面部分必须和账号名相同。<br><br>    解决办法：把git仓库重命名为gudaolanshan.github.io<br></ul>]]></content>
     
     <summary type="html">
     
